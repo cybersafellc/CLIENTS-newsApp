@@ -26,7 +26,7 @@ const News = () => {
       alert("Kolom pesan tidak boleh kosong");
     } else {
       axios
-        .post(`http://server-news-app.vercel.app/post-news`, {
+        .post(`https://server-news-app.vercel.app/post-news`, {
           title: sessionStorage.getItem("name"),
           text_value: inputanText.current.value,
         })
