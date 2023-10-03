@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CLIENTS-newsApp/static/css/main.173fada4.css",
-    "main.js": "/CLIENTS-newsApp/static/js/main.cd34fec8.js",
+    "main.css": "/CLIENTS-newsApp/static/css/main.117d16e4.css",
+    "main.js": "/CLIENTS-newsApp/static/js/main.f0c6033d.js",
     "static/js/787.66a4299e.chunk.js": "/CLIENTS-newsApp/static/js/787.66a4299e.chunk.js",
     "static/media/X2Download.app - NOTIFICATION BELL - Sound Effect (128 kbps).mp3": "/CLIENTS-newsApp/static/media/X2Download.app - NOTIFICATION BELL - Sound Effect (128 kbps).9c20eb2c1638b4e7ca30.mp3",
     "index.html": "/CLIENTS-newsApp/index.html",
-    "main.173fada4.css.map": "/CLIENTS-newsApp/static/css/main.173fada4.css.map",
-    "main.cd34fec8.js.map": "/CLIENTS-newsApp/static/js/main.cd34fec8.js.map",
+    "main.117d16e4.css.map": "/CLIENTS-newsApp/static/css/main.117d16e4.css.map",
+    "main.f0c6033d.js.map": "/CLIENTS-newsApp/static/js/main.f0c6033d.js.map",
     "787.66a4299e.chunk.js.map": "/CLIENTS-newsApp/static/js/787.66a4299e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.173fada4.css",
-    "static/js/main.cd34fec8.js"
+    "static/css/main.117d16e4.css",
+    "static/js/main.f0c6033d.js"
   ]
 }
