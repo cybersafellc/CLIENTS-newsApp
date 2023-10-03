@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+section {
   min-height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+.rounded-folder-style {
+  border-radius: 30px 30px 0px 0px;
+}
+
+.nav-list {
+  transition: 0.3s;
+}
+.nav-list:hover {
+  background-color: rgb(230, 229, 229) !important;
+  cursor: pointer;
+}
+.news-card {
+  transition: 0.3s;
+}
+.news-card:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.container-news {
+  max-height: 70vh !important;
+  overflow-y: auto;
+}
+
+.message-wrapper {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.message-wrapper > input {
+  width: 80%;
+  border-radius: 20px 0px 0px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.292);
+}
+.message-wrapper > button {
+  width: 20%;
+  border-radius: 0px 20px 20px 0px;
+}
+.slide-input-name {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  background-color: black;
+  color: white;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.audio {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1000;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 768px) {
+  section {
+    padding: 0px 0px !important;
+    margin: 0px !important;
+  }
+  .menu-card {
+    display: none;
+  }
+  .header-chat {
+    width: 100% !important;
+  }
+  .bg-transparant {
+    background-color: transparent;
+  }
+  .kadeaw633d4gs {
+    padding: 0px;
+  }
+  .card-chat {
+    position: fixed;
+    bottom: 0px;
+    top: 0px;
+    max-height: 100vh !important;
+  }
+  .container-news {
+    max-height: 91vh !important;
+    height: 91vh;
+    overflow-y: auto;
+    padding-top: 90px !important;
+  }
+  .navbar {
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+  }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.humberger-menu {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 5px;
+}
+.humberger-menu > span {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.719);
+  height: 4px;
+  border-radius: 20px;
 }
