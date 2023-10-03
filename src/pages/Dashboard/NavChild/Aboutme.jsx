@@ -1,7 +1,7 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 const Aboutme = () => {
   return (
-    <div className="border p-3 py-5 rounded-0 shadow">
+    <div className="border p-3 py-5 rounded-0 shadow container-news">
       <Container>
         <Row className="g-3">
           <Col xs="12" className="px-3">

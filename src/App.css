@@ -87,6 +87,7 @@ section {
     height: 91vh;
     overflow-y: auto;
     padding-top: 90px !important;
+    width: 100% !important;
   }
   .navbar {
     position: fixed;
